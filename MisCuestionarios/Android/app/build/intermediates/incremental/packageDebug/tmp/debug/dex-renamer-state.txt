@@ -1,0 +1,7 @@
+#Thu Oct 01 12:38:50 CEST 2026
+base.0=C\:\\Users\\movil\\Desktop\\GRADO\\APLICACION playstore\\MisCuestionarios\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
+base.1=C\:\\Users\\movil\\Desktop\\GRADO\\APLICACION playstore\\MisCuestionarios\\Android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\11\\classes.dex
+path.0=0/classes.dex
+path.1=11/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex

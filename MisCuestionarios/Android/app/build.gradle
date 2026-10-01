@@ -1,0 +1,53 @@
+plugins { id 'com.android.application' }
+
+// Firma para publicar (Google Play). La clave está en ../firma: GUÁRDALA, sin ella no se puede actualizar la app.
+def firmaProps = new Properties()
+def firmaFile = rootProject.file('firma/keystore.properties')
+if (firmaFile.exists()) firmaFile.withInputStream { firmaProps.load(it) }
+
+android {
+    namespace 'com.miscuestionarios.app'
+    compileSdk 36
+    defaultConfig {
+        applicationId 'com.miscuestionarios.app'
+        minSdk 29
+        targetSdk 36
+        versionCode 10
+        versionName '1.0.0'
+    }
+    signingConfigs {
+        publicar {
+            if (firmaFile.exists()) {
+                storeFile file(firmaProps['storeFile'])
+                storePassword firmaProps['storePassword']
+                keyAlias firmaProps['keyAlias']
+                keyPassword firmaProps['keyPassword']
+            }
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            if (firmaFile.exists()) signingConfig signingConfigs.publicar
+        }
+    }
+}
+
+// Al compilar la versión release se genera también el .aab (Google Play) y se copian
+// la APK y el AAB a la carpeta "MyQuizzes - Listo para vender" (junto a MisCuestionarios).
+def entrega = rootProject.file('../../MyQuizzes - Listo para vender/Android')
+tasks.register('empaquetar', Copy) {
+    dependsOn 'assembleRelease', 'bundleRelease'
+    from(layout.buildDirectory.file('outputs/apk/release/app-release.apk')) { rename { 'MyQuizzes.apk' } }
+    from(layout.buildDirectory.file('outputs/bundle/release/app-release.aab')) { rename { 'MyQuizzes.aab' } }
+    into entrega
+}
+// Con "empaquetarSiempre=true" en gradle.properties, cualquier compilación (también la de depuración)
+// deja la versión de venta actualizada en esa carpeta.
+def siempre = (findProperty('empaquetarSiempre') ?: 'false').toString() == 'true'
+tasks.matching { it.name == 'assembleRelease' || (siempre && it.name == 'assembleDebug') }
+     .configureEach { finalizedBy 'empaquetar' }

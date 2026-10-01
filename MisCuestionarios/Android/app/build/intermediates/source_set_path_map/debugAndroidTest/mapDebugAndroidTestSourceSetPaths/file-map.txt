@@ -1,0 +1,5 @@
+com.miscuestionarios.app.test.app-androidTest-0 C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\build\generated\res\resValues\androidTest\debug
+com.miscuestionarios.app.test.app-updated_navigation_xml-1 C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\build\generated\updated_navigation_xml\debugAndroidTest
+com.miscuestionarios.app.test.app-mergeDebugAndroidTestResources-2 C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.miscuestionarios.app.test.app-mergeDebugAndroidTestResources-3 C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.miscuestionarios.app.test.app-debugAndroidTest-4 C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

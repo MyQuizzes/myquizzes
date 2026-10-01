@@ -1,0 +1,55 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.miscuestionarios.app"
+4    android:versionCode="10"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="36" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\src\main\AndroidManifest.xml:3:5-66
+11-->C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\src\main\AndroidManifest.xml:3:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\src\main\AndroidManifest.xml:4:5-78
+12-->C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\src\main\AndroidManifest.xml:4:22-76
+13
+14    <application
+14-->C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\src\main\AndroidManifest.xml:5:5-21:19
+15        android:allowBackup="true"
+15-->C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\src\main\AndroidManifest.xml:8:9-35
+16        android:debuggable="true"
+17        android:extractNativeLibs="false"
+18        android:icon="@mipmap/ic_launcher"
+18-->C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\src\main\AndroidManifest.xml:7:9-43
+19        android:label="@string/app_name"
+19-->C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\src\main\AndroidManifest.xml:6:9-41
+20        android:theme="@android:style/Theme.Material.Light.NoActionBar"
+20-->C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\src\main\AndroidManifest.xml:10:9-72
+21        android:usesCleartextTraffic="true" >
+21-->C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\src\main\AndroidManifest.xml:9:9-44
+22        <activity
+22-->C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\src\main\AndroidManifest.xml:11:9-20:20
+23            android:name="com.miscuestionarios.app.MainActivity"
+23-->C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\src\main\AndroidManifest.xml:12:13-41
+24            android:configChanges="orientation|screenSize|screenLayout|smallestScreenSize|keyboardHidden|uiMode"
+24-->C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\src\main\AndroidManifest.xml:15:13-113
+25            android:exported="true"
+25-->C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\src\main\AndroidManifest.xml:13:13-36
+26            android:windowSoftInputMode="adjustResize" >
+26-->C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\src\main\AndroidManifest.xml:14:13-55
+27            <intent-filter>
+27-->C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\src\main\AndroidManifest.xml:16:13-19:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\src\main\AndroidManifest.xml:17:17-68
+28-->C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\src\main\AndroidManifest.xml:17:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\src\main\AndroidManifest.xml:18:17-76
+30-->C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\src\main\AndroidManifest.xml:18:27-74
+31            </intent-filter>
+32        </activity>
+33    </application>
+34
+35</manifest>

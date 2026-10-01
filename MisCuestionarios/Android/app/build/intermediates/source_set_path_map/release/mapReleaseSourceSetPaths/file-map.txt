@@ -1,0 +1,8 @@
+com.miscuestionarios.app-pngs-0 C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\build\generated\res\pngs\release
+com.miscuestionarios.app-resValues-1 C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\build\generated\res\resValues\release
+com.miscuestionarios.app-updated_navigation_xml-2 C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\build\generated\updated_navigation_xml\release
+com.miscuestionarios.app-packageReleaseResources-3 C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\build\intermediates\incremental\release\packageReleaseResources\merged.dir
+com.miscuestionarios.app-packageReleaseResources-4 C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\build\intermediates\incremental\release\packageReleaseResources\stripped.dir
+com.miscuestionarios.app-release-5 C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\build\intermediates\merged_res\release\mergeReleaseResources
+com.miscuestionarios.app-main-6 C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\src\main\res
+com.miscuestionarios.app-release-7 C:\Users\movil\Desktop\GRADO\APLICACION playstore\MisCuestionarios\Android\app\src\release\res

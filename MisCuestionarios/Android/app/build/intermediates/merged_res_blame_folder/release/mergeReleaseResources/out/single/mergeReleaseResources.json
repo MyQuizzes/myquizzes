@@ -1,0 +1,102 @@
+[
+    {
+        "merged": "com.miscuestionarios.app-release-4:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.miscuestionarios.app-main-5:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.miscuestionarios.app-main-5:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.miscuestionarios.app-main-5:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.miscuestionarios.app-main-5:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.miscuestionarios.app-main-5:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.miscuestionarios.app-main-5:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/drawable_ic_fondo.xml.flat",
+        "source": "com.miscuestionarios.app-main-5:/drawable/ic_fondo.xml"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/mipmap-xhdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.miscuestionarios.app-main-5:/mipmap-xhdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/mipmap-xxxhdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.miscuestionarios.app-main-5:/mipmap-xxxhdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.miscuestionarios.app-main-5:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.miscuestionarios.app-main-5:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/mipmap-xxhdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.miscuestionarios.app-main-5:/mipmap-xxhdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.miscuestionarios.app-main-5:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.miscuestionarios.app-main-5:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.miscuestionarios.app-main-5:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.miscuestionarios.app-main-5:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.miscuestionarios.app-main-5:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.miscuestionarios.app-main-5:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/drawable_ic_frente.xml.flat",
+        "source": "com.miscuestionarios.app-main-5:/drawable/ic_frente.xml"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.miscuestionarios.app-main-5:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/mipmap-mdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.miscuestionarios.app-main-5:/mipmap-mdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/xml_fotos.xml.flat",
+        "source": "com.miscuestionarios.app-main-5:/xml/fotos.xml"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.miscuestionarios.app-main-5:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.miscuestionarios.app-main-5:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.miscuestionarios.app-release-4:/mipmap-hdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.miscuestionarios.app-main-5:/mipmap-hdpi/ic_launcher_monochrome.png"
+    }
+]

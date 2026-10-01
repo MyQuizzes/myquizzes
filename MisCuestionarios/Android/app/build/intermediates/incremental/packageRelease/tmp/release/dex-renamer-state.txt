@@ -1,0 +1,4 @@
+#Thu Oct 01 12:39:11 CEST 2026
+base.0=C\:\\Users\\movil\\Desktop\\GRADO\\APLICACION playstore\\MisCuestionarios\\Android\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

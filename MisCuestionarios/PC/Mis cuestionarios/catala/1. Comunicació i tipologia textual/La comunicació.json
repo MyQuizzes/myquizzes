@@ -1,0 +1,177 @@
+{
+ "title": "La comunicació",
+ "cards": [
+  {
+   "t": "rel",
+   "q": "Elements bàsics del procés comunicatiu",
+   "e": "",
+   "pairs": [
+    {
+     "l": "Emissor",
+     "r": "Qui produeix el missatge"
+    },
+    {
+     "l": "Receptor",
+     "r": "qui rep i interpreta el missatge"
+    },
+    {
+     "l": "Missatge",
+     "r": "La informacio transmesa"
+    },
+    {
+     "l": "Canal",
+     "r": "El mitjà fisic per on circula el missatge"
+    },
+    {
+     "l": "Codi",
+     "r": "El sistema de signes compartit"
+    },
+    {
+     "l": "Context",
+     "r": "La situació en què es produeix la comunicació"
+    },
+    {
+     "l": "Referent",
+     "r": "allò què es parla"
+    }
+   ]
+  },
+  {
+   "t": "rel",
+   "q": "Les funcions del llenguatge \"jackobson\"",
+   "e": "",
+   "pairs": [
+    {
+     "l": "Referencial o representativa",
+     "r": "Transmet informació objectiva sobre el referent \"Avui plou\""
+    },
+    {
+     "l": "Expressiva o emotiva",
+     "r": "expressa els sentiments de l'emissor \"Quina alegria\""
+    },
+    {
+     "l": "Conativa o apellativa",
+     "r": "Orienta el missatge cap al receptor per influir-lo \"Vine aquí\""
+    },
+    {
+     "l": "Fàtica o de contacte",
+     "r": "Comprova que el canal funciona \"hola?\""
+    },
+    {
+     "l": "Metalingüística",
+     "r": "Parla sobre el mateix codi \"La paraula taula és un sustantiu\""
+    },
+    {
+     "l": "Poètica o estètica",
+     "r": "posa l'accent en la forma del missatge \"La literatura\""
+    }
+   ]
+  },
+  {
+   "t": "rel",
+   "q": "Tipologia textual \"els textos es classifiquen segons la intenció comunicativa\"",
+   "e": "",
+   "pairs": [
+    {
+     "l": "Narratiu",
+     "r": "Explicar fets en successió temporal \"novella, conte, notícia\""
+    },
+    {
+     "l": "Descriptiu",
+     "r": "Presentar les característiques d'objectes \"Guia, retrat\""
+    },
+    {
+     "l": "Argumentatiu",
+     "r": "Convèncer, defensar una opinió \"editorial, publicitat\""
+    },
+    {
+     "l": "Expositiu",
+     "r": "informar objectivament \"manual, enciclopèdia\""
+    },
+    {
+     "l": "Instructiu o directiu",
+     "r": "Donar instruccions o ordres \"receptes, manuals, lleis\""
+    },
+    {
+     "l": "Conversacional",
+     "r": "Intercanvi espontani \"Diàleg, xat, entrevista\""
+    }
+   ]
+  },
+  {
+   "t": "abc",
+   "q": "quines son correctes",
+   "e": "",
+   "opts": [
+    {
+     "x": "Cohèrencia: fa referència al contingut lògic del text",
+     "ok": true
+    },
+    {
+     "x": "cohesió: mecanismes lingüístics que donen unitat formal al text",
+     "ok": true
+    },
+    {
+     "x": "cohesió: fa referència al contingut lògic del text",
+     "ok": false
+    },
+    {
+     "x": "Cohèrencia: mecanismes lingüístics que donen unitat formal al text",
+     "ok": false
+    }
+   ]
+  },
+  {
+   "t": "grp",
+   "q": "mecanismes de cohesió",
+   "e": "",
+   "groups": [
+    {
+     "n": "cohesió",
+     "items": [
+      "Ús de pronoms i demostratius per evitar epeticions",
+      "Ellipsi",
+      "Connectors",
+      "Sinonímia i hiperonímia",
+      "Repetició lèxica"
+     ]
+    }
+   ]
+  },
+  {
+   "t": "rel",
+   "q": "Connectors textuals principals",
+   "e": "",
+   "pairs": [
+    {
+     "l": "Addició",
+     "r": "a més, també, no obstant això, fins i tot"
+    },
+    {
+     "l": "Oposició",
+     "r": "però, tanmateix, no obstant això, tot i que"
+    },
+    {
+     "l": "Causalitat",
+     "r": "perquè, ja que, atès que, com que"
+    },
+    {
+     "l": "Conseqüència",
+     "r": "per tant, doncs, per consegüent, així doncs"
+    },
+    {
+     "l": "Temporalitat",
+     "r": "primer, després, mentre, finalment"
+    },
+    {
+     "l": "Exemplificació",
+     "r": "per exemple, com ara, és a dir"
+    },
+    {
+     "l": "Reformulació",
+     "r": "és a dir, o sigui, dit d'una altra manera"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,58 @@
+MIS CUESTIONARIOS - VERSIÓN PC
+
+1) Necesitas Python 3 (gratis): https://www.python.org/downloads/
+   En Windows, al instalarlo marca "Add Python to PATH".
+2) Haz doble clic en Iniciar.bat (Windows) o Iniciar.command (Mac).
+   En Linux: python3 servidor.py
+3) Se abre el navegador con el creador. Deja abierta la ventana negra mientras trabajas.
+
+DÓNDE SE GUARDA TODO
+Junto a servidor.py se crea la carpeta "Mis cuestionarios":
+  Mis cuestionarios / Asignatura / Tema / Cuestionario.json
+Puedes copiarla, hacer copias de seguridad o sincronizarla (Dropbox, Drive, Syncthing).
+Si cambias algo a mano ahí dentro, el creador lo detecta en unos segundos.
+
+GUARDADO AUTOMÁTICO Y REGLAS
+Cada cambio (crear, renombrar, mover, escribir preguntas...) se guarda solo en esa carpeta.
+Abajo verás "guardado ... ✓". El botón "Abrir carpeta en el PC" abre la carpeta seleccionada.
+Reglas: solo Asignatura > Tema > Cuestionario, sin nombres repetidos (no importan las mayúsculas)
+y sin los caracteres \ / : * ? " < > |
+Si copias cosas a mano dentro de la carpeta y rompen las reglas, el creador las ordena
+(lo suelto va a "General") y te avisa. Los archivos .json ilegibles nunca se borran.
+
+IMPORTAR Y EXPORTAR
+Solo se pueden exportar e importar TEMAS y CUESTIONARIOS (cada uno en su archivo .html).
+Las asignaturas se crean a mano con "+ Asignatura".
+
+EDITOR DE FÓRMULAS (PASOS) Y FOTOS
+En un cuestionario de "Pasos", el detalle de cada paso es un campo de fórmulas: las fracciones
+se ven apiladas, las potencias arriba, las raíces con su símbolo, sumatorios con sus límites...
+Pulsa "Teclado matemático" y usa las teclas, o escribe con el teclado (x^2 = potencia, 12/5 = fracción).
+Flechas ◀ ▶ (o del teclado) para moverte entre numerador, denominador, exponente...
+"Aa" escribe texto normal con espacios; ↵ baja de línea; ⌫ borra; ABC muestra el teclado del móvil.
+Las fórmulas necesitan un navegador reciente (Chrome/Edge 109+, Firefox, Safari).
+El tipo "Foto" muestra una imagen al practicar hasta que pulses Siguiente (no cuenta en la nota).
+Las fotos se reducen a 1280 px para que ocupen poco.
+
+PRACTICAR
+"Practicar" abre el cuestionario o la carpeta seleccionada. Marca las casillas de varios
+temas o cuestionarios (aunque sean de asignaturas distintas) y pulsa "Practicar selección".
+En los archivos exportados también se pueden marcar varios y practicarlos seguidos.
+
+IDIOMAS
+Castellano, English, Français, Português, Italiano y Deutsch. La primera vez se elige el idioma;
+para cambiarlo, botón 🌐 junto al título. Se guarda en config.json (junto a servidor.py).
+Los HTML exportados salen en el idioma elegido. Las carpetas «Para el móvil» y
+«Mis cuestionarios (del móvil)» se llaman igual en todos los idiomas.
+Para corregir o añadir traducciones: carpeta "idiomas" > traducciones.py, y luego
+ejecuta  python aplicar.py  (actualiza el PC y la app Android a la vez).
+
+PASAR ENTRE EL PC Y EL MÓVIL (por Wi-Fi)
+Al recibir se añade lo nuevo; si un cuestionario ya existe con otro contenido, se pregunta antes
+de reemplazarlo. Nunca se borra nada.
+Pulsa "Conectar con el móvil por Wi-Fi": aparece un PIN de 4 cifras (válido 10 minutos).
+En la app del móvil toca "⇅ PC", escribe el PIN y elige "⇩ Recibir del PC" o "⇧ Enviar al PC".
+Si el móvil envía, aquí en el PC te pregunta si hay que reemplazar algo.
+PC y móvil tienen que estar en la misma Wi-Fi. La primera vez Windows puede preguntar por el
+firewall de Python: pulsa "Permitir" (redes privadas). Si aun así no conecta, pon tu Wi-Fi
+como red privada en Windows. Solo funciona con el PIN correcto y se cierra sola.

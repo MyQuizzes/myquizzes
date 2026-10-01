@@ -1,0 +1,35 @@
+MIS CUESTIONARIOS - VERSIÓN ANDROID (proyecto de Android Studio)
+
+CREAR LA APP (una sola vez, en tu PC)
+1) Abre Android Studio > File > Open... y elige esta carpeta ("Android").
+   Espera a que termine la sincronización de Gradle (la primera vez necesita internet).
+2) Conecta el móvil por USB con la "Depuración USB" activada y pulsa el botón verde Run.
+   O para sacar el instalable: Build > Build Bundle(s) / APK(s) > Build APK(s).
+
+CÓMO FUNCIONA EN EL MÓVIL
+- Pantalla principal = PRACTICAR: tus asignaturas, temas y cuestionarios.
+  Toca un cuestionario para empezar, "▶ Tema" / "▶ Todo" para hacerlos seguidos,
+  o marca varios y pulsa "Practicar marcados". Al lado sale tu mejor nota.
+- "✎ Editar" abre el creador (igual que en el PC). "← Practicar" o el botón Atrás vuelve.
+- Todo se guarda solo con la misma estructura que en el PC:
+    Mis cuestionarios / Asignatura / Tema / Cuestionario.json   (carpeta privada de la app)
+  Ojo: si desinstalas la app se borra; haz copias con "Pasar del móvil al PC".
+
+IDIOMAS
+Castellano, English, Français, Português, Italiano y Deutsch, todos dentro de la misma APK
+(ocupan muy poco). La primera vez que se abre la app pregunta el idioma; para cambiarlo,
+botón 🌐 arriba en la pantalla principal. El nombre del icono sigue el idioma del móvil.
+
+PASAR ENTRE EL PC Y EL MÓVIL  (botón "⇅ PC", por Wi-Fi)
+Al recibir se añade lo nuevo; si un cuestionario ya existe con otro contenido, se pregunta antes
+de reemplazarlo. Nunca se borra nada.
+ 1) En el PC pulsa "Conectar con el móvil por Wi-Fi": sale un PIN de 4 cifras (dura 10 min).
+    La primera vez Windows puede preguntar por el firewall de Python: pulsa "Permitir".
+ 2) En la app: "⇅ PC", escribe el PIN y pulsa "⇩ Recibir del PC" o "⇧ Enviar al PC".
+    Al enviar, las preguntas de reemplazo salen en la pantalla del PC.
+    Si no encuentra el PC, abre "¿No encuentra el PC?" y escribe la dirección que sale en el PC.
+ · En Practicar solo salen para jugar los cuestionarios con alguna tarjeta completa;
+   los demás salen en gris y se completan en ✎ Editar.
+
+El archivo app/src/main/assets/index.html es el mismo HTML que la versión PC
+(creador-cuestionarios.html). Si cambias uno, copia encima el otro y vuelve a compilar.

@@ -1,0 +1,8 @@
+com.miscuestionarios.app:drawable/ic_frente = 0x7f010001
+com.miscuestionarios.app:mipmap/ic_launcher_monochrome = 0x7f020002
+com.miscuestionarios.app:string/app_name = 0x7f030000
+com.miscuestionarios.app:mipmap/ic_launcher = 0x7f020000
+com.miscuestionarios.app:xml/fotos = 0x7f040000
+com.miscuestionarios.app:mipmap/ic_launcher_round = 0x7f020003
+com.miscuestionarios.app:mipmap/ic_launcher_foreground = 0x7f020001
+com.miscuestionarios.app:drawable/ic_fondo = 0x7f010000

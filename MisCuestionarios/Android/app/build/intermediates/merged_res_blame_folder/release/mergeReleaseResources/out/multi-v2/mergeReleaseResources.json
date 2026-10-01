@@ -1,0 +1,94 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.miscuestionarios.app-release-4:/values-de_values-de.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\movil\\Desktop\\GRADO\\APLICACION playstore\\MisCuestionarios\\Android\\app\\src\\main\\res\\values-de\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "46",
+                        "endOffsets": "97"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.miscuestionarios.app-release-4:/values-pt_values-pt.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\movil\\Desktop\\GRADO\\APLICACION playstore\\MisCuestionarios\\Android\\app\\src\\main\\res\\values-pt\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "46",
+                        "endOffsets": "97"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.miscuestionarios.app-release-4:/values-it_values-it.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\movil\\Desktop\\GRADO\\APLICACION playstore\\MisCuestionarios\\Android\\app\\src\\main\\res\\values-it\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "46",
+                        "endOffsets": "97"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.miscuestionarios.app-release-4:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\movil\\Desktop\\GRADO\\APLICACION playstore\\MisCuestionarios\\Android\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "46",
+                        "endOffsets": "97"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.miscuestionarios.app-release-4:/values-en_values-en.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\movil\\Desktop\\GRADO\\APLICACION playstore\\MisCuestionarios\\Android\\app\\src\\main\\res\\values-en\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "46",
+                        "endOffsets": "97"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.miscuestionarios.app-release-4:/values-fr_values-fr.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\movil\\Desktop\\GRADO\\APLICACION playstore\\MisCuestionarios\\Android\\app\\src\\main\\res\\values-fr\\strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "46",
+                        "endOffsets": "97"
+                    }
+                }
+            ]
+        }
+    ]
+}

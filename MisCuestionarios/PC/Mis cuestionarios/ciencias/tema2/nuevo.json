@@ -1,0 +1,24 @@
+{
+ "title": "nuevo",
+ "cards": [
+  {
+   "t": "abc",
+   "q": "a y b",
+   "e": "",
+   "opts": [
+    {
+     "x": "a",
+     "ok": true
+    },
+    {
+     "x": "",
+     "ok": false
+    },
+    {
+     "x": "b",
+     "ok": true
+    }
+   ]
+  }
+ ]
+}

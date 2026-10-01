@@ -1,0 +1,14 @@
+PRUEBAS AUTOMÁTICAS DE MIS CUESTIONARIOS
+Necesitan Node.js + Playwright (npm i -g playwright && npx playwright install chromium), Python 3 y Java 17+.
+Cada prueba arranca su propio servidor en una carpeta temporal: no toca tus cuestionarios.
+
+  node pc.test.js            PC: crear, reglas de nombres, 6 tipos de tarjeta, disco, renombrar/mover/
+                             eliminar, cambios a mano, importar/exportar, seguridad, Wi-Fi con PIN, 6 idiomas
+  node practica.test.js      Práctica: contestar bien/mal, notas, repetir falladas, resumen, idiomas
+  node android-html.test.js  App en modo Android: pantalla principal, editor, Atrás, Wi-Fi contra el servidor real
+  node estres.test.js        Estrés: código malicioso, emojis/alfabetos, archivos corruptos, 2000 cuestionarios,
+                             foto enorme, dos pestañas a la vez, peticiones malas, 1000 pulsaciones al azar
+                             en el teclado de fórmulas, cerrar justo después de escribir
+  java/ (código Java del móvil fuera de Android: guardado, protección de borrados, Wi-Fi):
+       cd java && python extraer.py && javac -encoding UTF-8 -d out org/json/*.java Store.java StoreTest.java
+       java -Dsun.jnu.encoding=UTF-8 -Dfile.encoding=UTF-8 -cp out StoreTest  [ip:8765 PIN  para probar el Wi-Fi]
